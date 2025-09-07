@@ -20,7 +20,7 @@ function InnovationPage() {
           {/* Left Card - Ocean Research */}
           <div className="bg-gray-100 rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300">
             <div className="mb-6">
-              <div className="w-full h-56 sm:h-72 lg:h-80 bg-gradient-to-br from-blue-300 via-blue-400 to-cyan-500 rounded-xl overflow-hidden shadow-md relative">
+              <div className="w-full h-56 sm:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md relative">
                 {/* Left Content - Image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">

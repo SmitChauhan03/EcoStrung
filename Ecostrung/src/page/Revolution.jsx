@@ -82,10 +82,10 @@ function Revolution() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Reusable Card Component */}
           {images.map((item, index) => (
-            <div key={index} className="transition-all duration-300  hover:transform hover:-translate-y-2 hover:shadow-xl">
-              <div className="bg-gray-100 rounded-xl overflow-hidden">
+            <div key={index} className="relative transition-all rounded-xl duration-300   hover:transform hover:-translate-y-2 hover:shadow-xl">
+              <div className="bg-gray-100 rounded-xl overflow-hidden pb-25 md:pb-30">
                 <img src={item.src} alt="Plastic waste" className="w-full h-48 sm:h-56 object-cover " />
-                <div className="p-4">
+                <div className="p-4 absolute ">
                   <p className=" text-sm text-gray-700">{item.text}</p>
                 </div>
               </div>
