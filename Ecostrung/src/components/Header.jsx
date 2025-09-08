@@ -6,9 +6,9 @@ function Header() {
     return (
         <header className='sticky h-16 top-0 z-50 backdrop-blur-md  border-b border-gray-200/20 shadow-sm transition-all duration-300'>
                 <nav className='flex items-center justify-between p-4'>
-                    <div className='text-xl font-light text-gray-900 hover:text-gray-700 transition-colors duration-200 tracking-wide '>
-                        <Link to='/' >
-                        <span className='font-medium'>Your</span>Logo
+                    <div className='text-xl font-light text-gray-900 w-30 h-auto hover:text-gray-700 transition-colors duration-200 content tracking-wide '>
+                        <Link to='/'  >
+                        <img src='/Logo/LogoEcostrung.png' className='object-cover' ></img>
                         </Link>
                     </div>
 

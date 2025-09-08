@@ -11,9 +11,12 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">EcoStrung</h3>
+            <div className='text-xl font-light text-gray-900 w-30 h-auto hover:text-gray-700 transition-colors duration-200 content tracking-wide '>
+              <Link to='/'  >
+                <img src='/Logo/LogoEcostrung.png' className='object-cover' ></img>
+              </Link>
+            </div>    
             <p className="text-gray-600 mb-4 leading-relaxed">
               Innovating bioplastics from recycled waste
               building a sustainable, circular future.
