@@ -25,7 +25,7 @@ export default function ContactPage() {
     },1000)
     
     try {
-            await axios.post('http://localhost:5000/api/contact',data);
+            await axios.post('https://ecostrung.onrender.com/api/contact',data);
             reset()
         } catch (error) {
             console.log(error)
